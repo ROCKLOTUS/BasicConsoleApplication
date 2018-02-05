@@ -1,0 +1,88 @@
+key word:
+	auto break case char class const 
+	continue default delete do double else
+	enum extern float for friend goto 
+	if inline int long new operartor 
+	private protected public register return short
+	signed sizeof static struct switch this
+	typeof union unsigned virtual void volatile 
+	while
+
+C++基本数据类型：
+	基本类型：
+		int
+		char
+		float double 
+		bool
+	构造类型
+		enum
+		a[]
+		struct
+		union
+		class
+	指针类型
+	引用类型
+
+基本运算符和表达式：
+	单目：-
+	双目：+，-，*，/，...
+	三目：？：
+
+关系运算符：
+	>,<,==,!=,>=,<=
+logic运算符:
+	&&,||,~,^
+位运算符:
+	&,|,~,^,<<,>>
+
+格式化输入输出：
+	scanf:
+		d,D：十进制
+		o,O：八进制
+		x,X：十六进制
+		c：字符
+		s：字符串
+		f,e：浮点数
+		ld,lo,lx：长整形
+		lf,le：长浮点型
+		*:抑制输入，即读取但不存储
+	printf:
+		d,D
+		o,O
+		x,X
+		u
+		c
+		f
+		e,E
+		s
+		ld
+		lo
+		lx
+		lu
+		[m]宽度：右对齐
+		[-m]：宽度，左对齐
+
+I/O流：
+	cin：标准输入流
+	cout:标准输出流
+	#include<iostream>
+
+控制输入输出：
+	#include<iomanip.h>
+	dec：十进制
+	hex：十六进制
+	oct：八进制
+	setfill(c):给定域宽内填充
+	setprecision(n)：设置小数精度为n
+	setw(n):设置宽度
+
+	控制符：
+		setioflags(ios::fixed)		：固定浮点显示
+		setioflags(ios::scientific)	：指数显示
+		setioflags(ios::left)		：左对齐
+		setioflags(ios::right)		：右对齐
+		setioflags(ios::skipws)		：忽略前行空白
+		setioflags(ios::uppercase)	：十六进制大写
+		setioflags(ios::lowercase)	：十六进制小写
+
+	example:
